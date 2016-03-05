@@ -1,0 +1,29 @@
+{
+    "name": "mpaleo/scaffolder-support",
+    "description": "Laravel Scaffolder support component",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "crud",
+        "scaffold",
+        "support",
+        "generator"
+    ],
+    "authors": [
+        {
+            "name": "Michael Paleo",
+            "email": "github@michaelpaleo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "symfony/process": "2.8.*|3.0.*",
+        "laravelcollective/html": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scaffolder\\Support\\": "src/"
+        }
+    }
+}
